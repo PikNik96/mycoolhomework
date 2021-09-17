@@ -9,8 +9,10 @@ int main(void) {
 	*a = 1111111;
 	printf("double now 0x%lx\n", *(long*)&b);
 
-	
+
 	printf("%lu, %lu\n", sizeof(long), sizeof(double));
 
 	printf("a = %p, &b = %p, b = %lf, *a = %ld\n", a, &b, b, *a);
+
+	return 0;
 }

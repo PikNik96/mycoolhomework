@@ -1,7 +1,7 @@
 #include <stdint.h>
 #include <stdio.h>
 
-int main(void) {
+int main(int argc, char* argv[]) {
 	double b = 5.5;
 	long int* a = (long int*)&b;
 	printf("double was 0x%lx\n", *(long*)&b);
